@@ -1,1 +1,1 @@
-![aaaaa](/test/Simple Factory Pattern/Simple Factory Pattern.jpg)
+![aaaaa](test/Simple Factory Pattern/Simple Factory Pattern.jpg)
