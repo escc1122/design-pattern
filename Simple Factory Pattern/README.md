@@ -1,4 +1,4 @@
-![aaaaa](https://github.com/escc1122/test/blob/master/Simple%20Factory%20Pattern/Simple%20Factory%20Pattern.jpg)
+![aaaaa](https://github.com/escc1122/design-pattern/blob/master/Simple%20Factory%20Pattern/Simple%20Factory%20Pattern.jpg)
 
 
 
