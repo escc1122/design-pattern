@@ -1,1 +1,1 @@
-![Alt text](/path/to/img.jpgtest/Simple Factory Pattern/Simple Factory Pattern.jpg)
+![Alt text](/test/Simple Factory Pattern/Simple Factory Pattern.jpg)
