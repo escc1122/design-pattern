@@ -1,6 +1,6 @@
 簡單工廠模式
 
-![image](https://github.com/escc1122/design-pattern/blob/master/new/simple_factory/simple_factory.jpgg)
+![image](https://github.com/escc1122/design-pattern/blob/master/new/simple_factory/simple_factory.jpg)
 
 
 
