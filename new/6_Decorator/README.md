@@ -13,3 +13,11 @@
   bb.toDo();
 
 結果會是 先執行主要功能類別 toDo() ====> 新增功能類別A toDo() =====> 新增功能類別B toDo()
+
+
+
+
+
+也可以去掉介面 改寫成繼承主要功能類別
+
+![image](https://github.com/escc1122/design-pattern/blob/master/new/6_Decorator/Decorator2.jpg)
