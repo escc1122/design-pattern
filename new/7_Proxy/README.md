@@ -10,3 +10,8 @@
 2.延後載入
 3.只指向唯一實體物件
 4.檢查使用者權限
+
+
+    Subject aaaa = new Proxy();
+
+    aaaa.method();
