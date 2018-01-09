@@ -7,3 +7,12 @@
 ![image](https://github.com/escc1122/design-pattern/blob/master/new/16_State/State.jpg)
 
 
+  class ConcreteStateA(){
+    Handle(Context context){
+      doSomeThing();
+      //狀態移至下一個階段  
+      context.state=new ConcreteStateB();
+    }
+
+  }
+
