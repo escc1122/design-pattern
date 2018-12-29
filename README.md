@@ -8,6 +8,9 @@
 以運費而言 應該可以開放給使用者自定規則
 * 更改封閉 (Closed for modifcation)
 
+## 依賴倒轉原則
+
+
 ### 1_simple_factory
 簡單工廠模式
 
