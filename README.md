@@ -1,4 +1,4 @@
 # 大話設計模式練習筆記
 
-    8_Factory
+## 1_simple_factory
 簡單工廠模式
