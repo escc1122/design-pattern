@@ -11,6 +11,8 @@
 3.只指向唯一實體物件
 4.檢查使用者權限
 
+servlet分流,進入的時後才開始指定對應的sevlet 
+
 
     Subject aaaa = new Proxy();
 
