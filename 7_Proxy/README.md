@@ -1,6 +1,6 @@
 # 代理模式 Proxy
 
-![image](https://github.com/escc1122/design-pattern/blob/master/new/7_Proxy/Proxy.jpg)
+![image](https://github.com/escc1122/design-pattern/blob/master/7_Proxy/Proxy.jpg)
 
 
 目前想到的好處是
