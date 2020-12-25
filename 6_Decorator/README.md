@@ -3,7 +3,7 @@
 在不變更主要類別的情況下 可以格外新增功能 但要注意裝飾的順序
 可用於某些特例情況下 不改寫原程式碼而進行新增特殊功能
 
-![image](https://github.com/escc1122/design-pattern/blob/master/new/6_Decorator/Decorator.jpg)
+![image](https://github.com/escc1122/design-pattern/blob/master/6_Decorator/Decorator.jpg)
 
 
 
@@ -21,4 +21,4 @@
 
 也可以去掉介面 改寫成繼承主要功能類別
 
-![image](https://github.com/escc1122/design-pattern/blob/master/new/6_Decorator/Decorator2.jpg)
+![image](https://github.com/escc1122/design-pattern/blob/master/6_Decorator/Decorator2.jpg)
