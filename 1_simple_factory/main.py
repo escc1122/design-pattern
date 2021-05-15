@@ -45,7 +45,7 @@ class Sub(ISimpleFactory):
 
 class SimpleFactory:
     @staticmethod
-    def create(factory_type):
+    def create(factory_type) -> ISimpleFactory:
         if factory_type == 'add':
             return Add()
         elif factory_type == 'sub':
