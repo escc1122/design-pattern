@@ -30,15 +30,15 @@ class Strategy:
     def __init__(self, strategy: IStrategy):
         self.__strategy = strategy
 
-    def to_do(self, number_a, number_b) -> float:
+    def do_it(self, number_a, number_b) -> float:
         return self.__strategy.to_do(number_a, number_b)
 
 
 if __name__ == '__main__':
     add = Strategy(Add())
 
-    print(add.to_do(10, 5))  # 15
+    print(add.do_it(10, 5))  # 15
 
     sub = Strategy(Sub())
 
-    print(sub.to_do(10, 5))  # 5
+    print(sub.do_it(10, 5))  # 5
