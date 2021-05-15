@@ -7,7 +7,7 @@
 
 深複製 : 連連結都要進行複製 但就會扯到要複製到幾層的問題
 
-![image](https://github.com/escc1122/design-pattern/blob/master/new/9_Prototype/Prototype.jpg)
+![image](https://github.com/escc1122/design-pattern/blob/master/9_Prototype/Prototype.jpg)
 
 
 java的話直接使用clone就行
