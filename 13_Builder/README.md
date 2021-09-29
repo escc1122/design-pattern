@@ -9,7 +9,7 @@
 
 那麼 Director 就是建立這個流程,然後builder實作每個細節應該做什麼
 
-![image](https://github.com/escc1122/design-pattern/blob/master/new/13_Builder/Builder.jpg)
+![image](https://github.com/escc1122/design-pattern/blob/master/13_Builder/Builder.jpg)
 
 
 2.如果今天把Director類別加入簡單工廠模式 這樣使用者也可以不用知道builder類別 但之後每新增一個類都必需要修改Director 但反射可解決
