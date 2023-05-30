@@ -32,6 +32,7 @@ func TestNode_show(t *testing.T) {
 
 	//root.show(1)
 
+	//這個要到golang 1.20以上才跑得動
 	root.show2(1, func(d int, data IData) {
 		data.showData(d)
 	})
