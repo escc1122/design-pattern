@@ -14,15 +14,17 @@ type Folder struct {
 }
 
 type File struct {
-	name   string
-	iTrees []IComposite
+	name string
+	//iTrees []IComposite
 }
 
 func (f *File) add(iTree IComposite) {
 	fmt.Println("file no add")
 }
 
-func (f *File) remove(iTree IComposite) {}
+func (f *File) remove(iTree IComposite) {
+	fmt.Println("file no remove")
+}
 
 func (f *File) show(depth int) {
 	tab := ""
@@ -32,9 +34,9 @@ func (f *File) show(depth int) {
 
 	fmt.Printf("%s--%s\n", tab, f.name)
 
-	for _, tree := range f.iTrees {
-		tree.show(depth + 2)
-	}
+	//for _, tree := range f.iTrees {
+	//	tree.show(depth + 2)
+	//}
 }
 
 func (f *Folder) add(iTree IComposite) {
