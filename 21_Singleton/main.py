@@ -20,11 +20,18 @@ class Singleton:
 
 class Singleton2:
     _instance = None
+    _lock = threading.Lock()
 
     def __new__(cls, *args, **kwargs):
-        if cls._instance is None:
-            cls._instance = super().__new__(cls)
+        if not cls._instance:
+            with cls._lock:
+                if not cls._instance:
+                    cls._instance = super().__new__(cls)
         return cls._instance
+
+    def __init__(self, *args, **kwargs):
+        # 初始化代码
+        pass
 
 
 class Test:
@@ -34,6 +41,7 @@ class Test:
 
 def task(arg):
     obj = Singleton.get_instance()
+    # obj = Singleton2()
     print(obj)
 
 
